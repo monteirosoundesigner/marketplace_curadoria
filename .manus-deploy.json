@@ -1,0 +1,25 @@
+{
+  "name": "MarketHub",
+  "description": "Marketplace de curadoria com produtos de Amazon, Mercado Livre e Shopee",
+  "version": "1.0.0",
+  "author": "MarketHub Team",
+  "keywords": ["marketplace", "ecommerce", "afiliação", "dropshipping"],
+  "features": [
+    "Catálogo de produtos curado",
+    "Busca e filtros avançados",
+    "Sistema de afiliação",
+    "Dropshipping integrado",
+    "Dashboard de sellers",
+    "Carrinho de compras",
+    "Wishlist"
+  ],
+  "deployment": {
+    "type": "static",
+    "buildCommand": "npm run build",
+    "startCommand": "npm run preview",
+    "env": {
+      "VITE_APP_TITLE": "MarketHub - Marketplace de Curadoria",
+      "VITE_APP_DESCRIPTION": "Marketplace de curadoria com produtos de Amazon, Mercado Livre e Shopee"
+    }
+  }
+}
